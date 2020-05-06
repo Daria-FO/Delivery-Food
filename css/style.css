@@ -485,6 +485,7 @@ button {
 
 .modal-body {
     margin-bottom: 22px;
+    position: relative;
 }
 
 .food-row {
@@ -837,4 +838,13 @@ button {
     .footer-link:not(:last-child) {
         margin-right: 0;
     }
+}
+.notice-error {
+    font-size: 14px;
+    color: red;
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
